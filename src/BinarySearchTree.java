@@ -1,4 +1,4 @@
-public class BinarySearchTree<AnyType> {
+public class BinarySearchTree<AnyType extends Comparable<? super AnyType>> {
 
 	private BinaryNode<AnyType> root;
 

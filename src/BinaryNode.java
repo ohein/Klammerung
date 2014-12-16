@@ -3,7 +3,7 @@ class BinaryNode <AnyType extends Comparable <? super AnyType>> {
 	BinaryNode<AnyType> leftChild;
 	BinaryNode<AnyType> rightChild;	
 	
-	public <AnyType extends Comparable <? super AnyType>> BinaryNode (AnyType data1) {
+	public BinaryNode (AnyType data1) {
 		this.data=data1;
 	}
 }
